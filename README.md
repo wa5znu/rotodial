@@ -7,12 +7,13 @@ Uses SparkFun MicroView dial widget and a Quadrature encoder
 - https://www.sparkfun.com/products/12923
 - https://www.sparkfun.com/products/9117
 - https://github.com/sparkfun/MicroView
-
 - encoder code from http://www.circuitsathome.com/mcu/reading-rotary-encoder-on-arduino with fixes
 (handles pins other than the first ones on a port, and doesn't double step)
 
 Edit rotodial.ino and change the values of ENC_A ENC_B ENC_PORT ENC_SHIFT for your encoder pins.
 The sketch as is uses pin 2 and 3, which are on Atmega 328 PORT B, and need SHIFT=2 to shift down to bit zero from bit 2.
+
+Turn the rotary encoder and the MicroView Widget will follow.
 
 # License
 
